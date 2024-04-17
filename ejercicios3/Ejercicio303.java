@@ -19,25 +19,11 @@ public class Ejercicio303 {
         System.out.println("Impares:");
         for (int i=1; i <= numero  ; i++) {
              if (i%2 != 0) {
-                if (i < 20) {
-                    System.out.print( i);
-                    System.out.print( ",");
-                }
-             }            
-        }
-        
-        /*
-        System.out.println("");
-        System.out.println("Pares:");
-        for (int i=1; i <= numero ; i++) {
-            if (i%2 == 0) {
-                // System.out.println( i);
                 System.out.print( i);
                 System.out.print( ",");
-            }
+             }            
         }
-*/
-        
+
     }
     
 }
